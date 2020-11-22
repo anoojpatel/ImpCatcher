@@ -21,16 +21,16 @@ Build a decent Chess engine such that I have someone to play against! (and hopef
 this variant to grow!)
 
 ## Strategies (Current and New)
-[x] Capture/Escape Best piece Heuristic simulation/rollout at leaf nodes
-[ ] Belief States using state counts for all possible configurations and tracking MCTS for all belief
+-[x] Capture/Escape Best piece Heuristic simulation/rollout at leaf nodes
+-[ ] Belief States using state counts for all possible configurations and tracking MCTS for all belief
 states as a subtree.
-[ ] Efficient memory use along with Zobrist keys to build and prune our probability states
-[ ] CFR decomposition over current policy in subgame solving
-[ ] Depth limited Search (Apparently keeps tree growth consistent but has theoretical garantees for
+-[ ] Efficient memory use along with Zobrist keys to build and prune our probability states
+-[ ] CFR decomposition over current policy in subgame solving
+-[ ] Depth limited Search (Apparently keeps tree growth consistent but has theoretical garantees for
 nash equilibrium
-[ ] Visualization tool
-[ ] Hand crafted features vs Pure self-play Policy network similar to ReBeL/MuZero
-[ ] Efficient Data store for generated games and labels for training value/policy network
+-[ ] Visualization tool
+-[ ] Hand crafted features vs Pure self-play Policy network similar to ReBeL/MuZero
+-[ ] Efficient Data store for generated games and labels for training value/policy network
 
 ### Name Origin
 Based on the Runescape beginner quest for collecting beads from imps. It was divergent yet a tedious process. Something I find building this engine will be. Dealing with exploitability will be a very interesting challenge!
