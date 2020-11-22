@@ -1,0 +1,9 @@
+name = "ImpCatcher"
+uuid = "c9a3c23d-7231-4c2f-9461-fb0bef4b6fc1"
+authors = ["Anooj Patel <1996anoojpatel@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Chess = "717200cc-f167-4fd3-b4bf-b5e480529844"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
