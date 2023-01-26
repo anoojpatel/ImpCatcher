@@ -1,0 +1,6 @@
+.DS_Store
+#/Manifest.toml Checking in for now until a better solution is found for anoojpatel/Chess.jl's git repo install isn't in Manifest.toml
+/dev/
+/docs/build/
+/docs/site/
+.vscode
