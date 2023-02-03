@@ -4,9 +4,16 @@ authors = ["Anooj Patel <1996anoojpatel@gmail.com>"]
 version = "0.1.0"
 
 [deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Chess = "717200cc-f167-4fd3-b4bf-b5e480529844"
+ESCHER = "8352d375-fc30-4b16-9ec5-e70b12d7d3f1"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+OpenSpiel = "ceb70bd2-fe3f-44f0-b81f-41608acaf2f2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+ReinforcementLearning = "158674fc-8238-5cab-b5ba-03dfc80d1318"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
 StippleUI = "a3c5d34a-b254-4859-a8fa-b86abb7e84a3"
+Transformers = "21ca0261-441d-5938-ace7-c90938fde4d4"
