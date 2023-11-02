@@ -1,5 +1,5 @@
 FROM julia:1.8 as julia-base
-FROM nvidia/cuda:11.2.0-cudnn8-devel-ubuntu20.04 as base
+FROM nvidia/cuda:11.0.3-base-ubuntu20.04 as base
 
 # ubuntu 20.04 is derived from debian buster
 COPY --from=julia-base /usr/local/julia /usr/local/julia
